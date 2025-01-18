@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    scroll-behavior: smooth;
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+    font-weight: bold;
+    height: 100%;
+}
+
+a {
+    transition: all;
+    transition-duration: 100ms;
+}
+a:hover {
+    color: #ff6b6b;
+}
+
+input, textarea {
+    border: 2px solid #606060;
+    border-radius: 2px;
+    background-color: transparent;
+    color:white
+}
+
+input::placeholder {
+    color: white;
+}
+
+textarea::placeholder {
+    color: white;
+}
+
+input:focus {
+    outline: none;
+}
+
+textarea:focus {
+    outline: none;
+}
+
+input:focus::placeholder {
+    color: transparent;
+}
+
+textarea:focus::placeholder {
+    color: transparent
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator { 
+    display: none; 
+}
