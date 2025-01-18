@@ -13,8 +13,7 @@ const Nav = () => {
 
   const handleOpen = () => {
     setOpen(!open)
-    console.log(open)
-  }
+   }
 
   return (
     <div className='w-full h-20 absolute z-30'>
