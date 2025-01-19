@@ -24,11 +24,7 @@ const Hero = () => {
       autoPlay loop muted>
         <source src={VideoMobile} type="video/mp4"></source>
       </video>
-            
-        
-        />
-      
-
+          
         <div className="relative z-20 flex flex-col gap-2 md:gap-6 items-center 
         justify-center h-screen">
         <h1 className='text-white text-center md:text-7xl text-3xl font-bold 
