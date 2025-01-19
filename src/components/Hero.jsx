@@ -14,7 +14,7 @@ const Hero = () => {
       {/*video desktop*/ }
       <video className='hidden md:block
       w-full h-screen fixed object-cover z-0 blur-[4px]' 
-        autoPlay loop muted>
+        autoPlay loop muted playsinline>
             <source src={VideoDesktop} type='video/mp4'></source>
       </video>
 
@@ -24,7 +24,7 @@ const Hero = () => {
           __html:
             `<video className='block md:hidden w-full h-screen fixed object-cover
                 z-0 blur-[4px]'
-                autoPlay loop muted>
+                autoPlay loop muted playsinline>
                 <source src={VideoMobile} type="video/mp4"></source>
             </video>
             `
