@@ -25,7 +25,7 @@ const Hero = () => {
         <source src={VideoMobile} type="video/mp4"></source>
       </video>
             
-        }}
+        
         />
       
 
