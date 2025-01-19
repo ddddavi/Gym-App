@@ -21,7 +21,7 @@ const Hero = () => {
       {/*video mobile*/}
       <video className='block md:hidden w-full h-screen fixed object-cover
       z-0 blur-[4px]'
-      autoplay loop muted>
+      autoPlay loop muted>
         <source src={VideoMobile} type="video/mp4"></source>
       </video>
             
