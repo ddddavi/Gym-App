@@ -19,15 +19,12 @@ const Hero = () => {
       </video>
 
       {/*video mobile*/}
-      <div
-        dangerouslySetInnerHTML={{
-          __html:
-            `<video className='block md:hidden w-full h-screen fixed object-cover
-                z-0 blur-[4px]'
-                autoplay loop muted>
-                <source src={VideoMobile} type="video/mp4"></source>
-            </video>
-            `
+      <video className='block md:hidden w-full h-screen fixed object-cover
+      z-0 blur-[4px]'
+      autoplay loop muted>
+        <source src={VideoMobile} type="video/mp4"></source>
+      </video>
+            
         }}
         />
       
