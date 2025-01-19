@@ -14,14 +14,14 @@ const Hero = () => {
       {/*video desktop*/ }
       <video className='hidden md:block
       w-full h-screen fixed object-cover z-0 blur-[4px]' 
-        loop={true} muted={true} autoplay={true} playsinline={true}>
+        loop={true} muted={true} autoPlay={true} playsinline={true}>
             <source src={VideoDesktop} type='video/mp4'></source>
       </video>
 
       {/*video mobile*/}
       <video className='block md:hidden w-full h-screen fixed object-cover
       z-0 blur-[4px]'
-      loop={true} muted={true} autoplay={true} playsinline={true}>
+      loop={true} muted={true} autoPlay={true} playsinline={true}>
         <source src={VideoMobile} type="video/mp4"></source>
       </video>
 
